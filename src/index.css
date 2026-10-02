@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body { @apply bg-neutral-950 text-neutral-100 antialiased; }
+.input { @apply w-full rounded-lg bg-neutral-900 border border-neutral-800 px-3 py-2 text-sm outline-none focus:border-neon; }
+.btn { @apply rounded-lg px-4 py-2 text-sm font-bold transition disabled:opacity-40 disabled:cursor-not-allowed; }
+.btn-primary { @apply btn bg-neon text-black hover:brightness-110; }
+.btn-ghost { @apply btn border border-neutral-700 hover:border-neon hover:text-neon; }
